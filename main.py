@@ -95,7 +95,7 @@ def main():
         "======================================= deepseek ======================================="
     )
     # deepseek
-    deepseek_texto_gerado = "A Inteligência Artificial (IA) é uma subárea da Ciência da Computação que está em voga, addressando desafios e oportunidades nos campos da sociedade e da academia. Em切入, AI pode ajudar na optimização da eficácia das obras de pesquisa acadêmicas, reduzindo o drSchemeo complexo dos projeto, permitindo advancements significativos. No entanto, sua aplicação em sala de aula pode causar desvantagens, como a depuração da infraestrutura e o discrepamento digital, que podem arrastar as figuras do usuário. Smustar uma abordagem balanceada, comorientações para o uso de IA na formatação académica, é essencial para garantir consistentes resultados. A Inteligência Artificial pode ser uma ferramenta de ajuda, mas também necessita de considerações ethiolas em torno das afetativas nas etapas de uma iniciação científica."
+    deepseek_texto_gerado = gerar_resumo("deepseek-r1:1.5b", texto_original)
 
     print(deepseek_texto_gerado)
 
